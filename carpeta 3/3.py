@@ -13,6 +13,7 @@ if precio_costo <3000:
 elif precio_costo > 6000:
         Ganancia = precio_costo *0.25
 else:
+
        Ganancia = 500
 precio_venta = (precio_costo + Ganancia)
 

@@ -15,4 +15,7 @@ Nos indicara cual es el valor final de los productos.
 
 # diseño
 
+![diagrama de flujo](diagrama.png "diagrama de flujo")
+
+# construccion
 
