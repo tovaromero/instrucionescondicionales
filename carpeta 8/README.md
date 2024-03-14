@@ -17,6 +17,6 @@ Print : dice si son multiplos o no
 
 # DISEÑO 
 
-! [diagrama de flujo](diagrama.png "diagrama de flujo")
+![diagrama de flujo](diagrama.png "diagrama de flujo")
 
 # construccion
