@@ -1,4 +1,5 @@
 # prestamo bancario
+
 Programa para ver si usted puede adquierir un prestamo en el banco segun su salario y si tiene deudas anteriores
 
 # analisis 
@@ -20,8 +21,11 @@ denegado = su prestamo fue denegado
 
 nos indicara si se acepto o denego el prestamo
 
-# diseño 
-![diagrama de flujo](digagrama.png "diagrama de flujo")
+# diseño
+
+![diagrama de flujo](diagrama.png " digrama de flujo")
+
+
 
 # construccion
 
