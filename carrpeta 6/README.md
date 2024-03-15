@@ -1,24 +1,22 @@
-# instrucionescondicionales
+## raices de ecuacion de segundo grado
 
-# Suma de los 3 numeros enteros
-Programa para saber si el numero 1 y 2 es igual al numero 3
+programa para  Calcular e imprimir las raíces de la ecuación de segundo grado de coeficientes reales
 
 # ANALISIS
 
-Variables de entrada 
+--Variables de entrada 
+a = variable de numero 1
+b = variable de numero 2
+c = varibale de numero 3
 
-A = 1 numero
-B = 2 numero
-C = 3 numero
+--variables de proceso
 
-variables de proceso
+d = varible en la que se hace la operacion para saber si son numeros reales posibles
 
-A + B = C : la suma de los 2 primeros numeros da el 3
-
-Variables de salida
-
-print : dice si los 2 primeros numeros son el 3
-
+--Variables de salida
+x1 = la 1 varibles de salida de los 3 casos
+x2 = la 2 variable de salida de los 3 casos
+--
 # DISEÑO
 
 ![Diagrama de flujo](diagrama.png "diagrama de flujo")

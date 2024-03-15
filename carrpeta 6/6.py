@@ -1,14 +1,23 @@
-## programa para saber si la suma de los 2 primeros numeros es el numero 3
+from math import*
+# programa para  Calcular e imprimir las raíces de la ecuación de segundo grado de coeficientes reales
 
-# input
+#imput
+a = int(input("porvafor ingrese el numero a :"))
+b = int(input("porvafor ingrese el numero b :"))
+c = int(input("porvafor ingrese el numero c :"))
 
-A = int(input("porfavor ingrese el primer numero : "))
-B = int(input("porfavor ingrese el segundo numero : "))
-C = int(input("porfavor ingrese el tercer numero : "))
-
-# procesing
-
-if A + B == C:
-    print("La suma de los numeros",A,"+",B,"es igual al numero",C,)
+#procesing
+if a == 0:
+    print("No hay ecuacion cuadratica")
 else:
-    print("La suma de los numeros",A,"+",B,"no es igual al numero",C,)
+    d = b**2 -4*a*c
+    if d == 0:
+        x1 = -b /2*a
+        x2 = x1
+        print("los resultados de la operacion son : ", x1, x2,)
+    elif d > 0:
+        x1 = (-b + sqrt(d))/2*a
+        x2 = (-b - sqrt(d))/2*a
+        print("los resultado de las operaciuones son :",x1 ,x2,)
+    else:
+        print("no hay solucion real")
